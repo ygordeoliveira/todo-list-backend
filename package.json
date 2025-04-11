@@ -4,7 +4,7 @@
     "description": "Backend do TODO List com json-server",
     "main": "server.js",
     "scripts": {
-        "start": "json-server --watch db.json --port 8080 --host 0.0.0.0 --save db.json"
+        "start": "node server.js"
     },
     "dependencies": {
         "json-server": "^0.17.0"
